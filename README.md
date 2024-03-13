@@ -1,2 +1,2 @@
-# CodeMonkey-DelphiCode
+# Code Monkey - Delphi Code
 The original program that writes the lyrics to Code Monkey as Delphi Code
