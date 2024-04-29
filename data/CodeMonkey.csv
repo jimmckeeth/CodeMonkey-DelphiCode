@@ -1,0 +1,73 @@
+Idx,Original,Code,Script,Start,Finish,Duration,Space,Offset
+1,,,"^aprogram SpecialMusicalNumber;~~{{$$APPTYPE CONSOLE}~~begin~~end.{ESC}{UP 3}{HOME}",-4001,-4000,1,0,-593
+2,,,"~uses~{TAB}JoCo;~{DOWN 2}Music.Start;~~",-4000,0,4000,0,91
+3,"Code Monkey get up get coffee",CodeMonkey.GetUp.GetCoffee;,"^ Code~.Get~.GetCof~;~^{DOWN}",364,2825,2461,364,259
+4,"Code Monkey go to job",CodeMonkey.&GoTo(Job);,"^ Code~.GoTo~Job{ESC}{END}~^{DOWN}",3374,4896,1522,549,123
+5,"Code Monkey have boring meeting",CodeMonkey.Have(BoringMeeting).,"^ Code~.Have~^ Boring~{ESC}{END}.{ESC}~^{DOWN}",6326,8825,2499,1430,300
+6,"with boring manager Rob",&With(BoringManagerRob);,"&With(^ Boring~);{ESC}~^{DOWN}",9201,10732,1531,376,121
+7,,,~^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN},10732,12050,1318,0,-11
+8,"Rob say Code Monkey very diligent","Rob.Say(['Code Monkey very dilligent',","Rob.Say~['Code Monkey very diligent',{ESC}~",12050,14999,2949,0,322
+9,"but his output stink","         'But his output stink',","{TAB}'But his output stink',~",14999,16524,1525,0,191
+10,"his code not functional or elegant","         'His code not ""functional"" or ""elegant""',","'His code not ""functional"" or ""elegant""',~",18207,21003,2796,1683,334
+11,"what do Code Monkey think","         'What do Code Monkey think?']);","'What do Code Monkey think?']{END}~{BKSP}",21003,22842,1839,0,288
+12,"Code Monkey think maybe manager want to write login page himself","CodeMonkey.Think('maybe manager want to write login page himself');","^ Code~.Think~{ESC}~{TAB}'maybe manager want to write login page himself!'{END}{ESC}~{HOME}{TAB}",22842,28045,5203,0,622
+13,"Code Monkey not say it out loud",CodeMonkey.&Not(SayItOutLoud);,"^ Code~.Not~^ Say~{ESC}{END};~",28045,31117,3072,0,381
+14,"Code Monkey not crazy just proud",CodeMonkey.&Not(Crazy).Just(Proud);,"^ Code~.Not~^ Crazy~{ESC}{END}.Just~^ Proud~{END};{ESC}~",31117,34096,2979,0,335
+15,,,~^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN},34096,34096,0,0,-101
+16,"Code Monkey like Fritos",CodeMonkey.Like(Fritos);,"^ Code~.Like~^ Frit~{END}{ESC}~",34096,36037,1941,0,123
+17,"Code Monkey like Tab and Mountain Dew","CodeMonkey.Like(Tab and MountainDew);","^ Code~.Like~^ Ta~ and ^ Mount~{END}{ESC}~",37121,39787,2666,1084,387
+18,"Code Monkey very simple man",CodeMonkey.Very(SimpleMan).,"^ Code~.Very~^ Simple~{END}{ESC}.{ESC}~",40092,42241,2149,305,265
+19,"with big warm fuzzy secret heart",&With(BigWarmFuzzySecretHeart);,"^ With~^ BigWarm~{END}{ESC}~",42946,45020,2074,705,87
+20,"Code Monkey like you",CodeMonkey.Like(you);,"^ Code~.^ Like~You{END}{ESC}~",46120,47834,1714,1100,129
+21,"Code Monkey like you",CodeMonkey.Like(you);,{UP}+{END}%E{DOWN}{DOWN}{DOWN}{DOWN}~{HOME}^{RIGHT}{DOWN}%E{DOWN}{DOWN}{DOWN}{DOWN}{DOWN}~{END}~,52105,55518,3413,4271,-189
+22,,,~^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN},55518,59096,3578,0,-200
+23,"Code Monkey hang around at front desk",CodeMonkey.HangAround(AtFrontDesk).,"^ Code~.Hang~@^ Front~{ESC}{END}.{ESC}~",59096,61750,2654,0,140
+24,"tell you sweater look nice","Tell(You, 'sweater look nice');","^ Tell~You, 'sweater look nice'{END}{ESC}~",62106,63648,1542,356,173
+25,"Code Monkey offer buy you soda","CodeMonkey.Offer(Buy, You, Soda).","^ Code~.Offer~Buy, you, soda{END}.{ESC}~",65139,67578,2439,1491,250
+26,"bring you cup bring you ice","Bring(You, cup).Bring(You, Ice);","Bring(You, cup).Bring~You, ice{END};{ESC}~",67731,69618,1887,153,155
+27,"you say no thank you for the soda cause","You.Say(['no thank you for the soda cause',","You.S~['No thank you for the soda cause',{ESC}~",70992,73747,2755,1374,454
+28,"soda make you fat","         'Soda make you fat',","{TAB}'Soda make you fat',~",73747,75622,1875,0,257
+29,"anyway you busy with the telephone","         'Anyway you busy with the telephone',","'Anyway you busy with the telephone',~",76957,79740,2783,1335,414
+30,"no time for chat","         'No time for chat']);","'No time for chat']{END}{ESC}~{HOME}{TAB}",79931,81595,1664,191,310
+31,"Code Monkey have long walk back to cubicle",CodeMonkey.Have(LongWalkBackToCubicle).,"^ Code~.Have~^ LongWalk~{END}.{ESC}~",81595,85016,3421,0,416
+32,"he sit down pretend to work",He.SitDown.PretendTo(Work);,He.Sit~.Pret~Work{END};{ESC}~,85016,87415,2399,0,62
+33,"Code Monkey not thinking so straight",CodeMonkey.&Not(ThinkingSoStraight);,"^ Code~.Not(^ Thinking~{END}{ESC};~",87615,90586,2971,200,379
+34,"Code Monkey not feeling so great",CodeMonkey.&Not(FeelingSoGreat);,"^ Code~.Not(^ Feeling~{END}{ESC};~",90586,93607,3021,0,414
+35,,,~^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN},93607,93607,0,0,-108
+36,"Code Monkey like Fritos",CodeMonkey.Like(Fritos);,"^ Code~.Like~^ Frit~{END}{ESC}~",93607,95529,1922,0,102
+37,"Code Monkey like Tab and Mountain Dew","CodeMonkey.Like(Tab and MountainDew);","^ Code~.Like~^ Ta~ and ^ Mount~{END}{ESC}~",96617,99295,2678,1088,396
+38,"Code Monkey very simple man",CodeMonkey.VerySimpleMan.,"^ Code~.Very~^ Simple~{END}{ESC}.{ESC}~",99624,101690,2066,329,255
+39,"with big warm fuzzy secret heart",&With(BigWarmFuzzySecretHeart);,"^ With~^ BigWarmFuzzy~{END}{ESC}~",102598,104524,1926,908,125
+40,"Code Monkey like you",CodeMonkey.Like(you);,"^ Code~.^ Like~You{END}{ESC}~",105608,108027,2419,1084,318
+41,"Code Monkey like you","CodeMonkey.Like(you,",{UP}+{END}%E{DOWN}{DOWN}{DOWN}{DOWN}~{HOME}^{RIGHT}{DOWN}%E{DOWN}{DOWN}{DOWN}{DOWN}{DOWN}~{END}~,112085,113519,1434,4058,-90
+42,"a lot"," ALot);","{UP}{END}{LEFT}{LEFT}, A^ Lo~{END}{ESC}~",115204,116094,890,1685,95
+43,,,"T^jODO~Jim{TAB}Refactoring{TAB}Make chorus a method!~{END}~{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}",116594,125113,8519,500,250
+44,"Code Monkey have every reason",CodeMonkey.Have(EveryReason).,"^ Code~.Have(^ Every~{END}.{ESC}~",125113,127547,2434,0,420
+45,"to get out this place","&To(GetOut, ThisPlace);","^ To~^ Get~, ^ This~{END}{ESC}~",127922,129422,1500,375,167
+46,"Code Monkey just keep on working",CodeMonkey.Just(KeepOnWorking).,"^ Code~.Just(^ Keep~{ESC}{END}.{ESC}~",130917,133520,2603,1495,446
+47,"to see your soft pretty face",See(you.r(SoftPrettyFace)).,"See(you.r(^ Soft~{END}).{ESC}~",133520,135430,1910,0,404
+48,"Much rather wake up eat a coffee cake",MuchRather(WakeUp).Eat(ACoffeeCake).,"^ Much~^ Wake~{END}.Eat(^ ACoff~{END}.{ESC}~",136776,139548,2772,1346,335
+49,"Take bath, take nap",Take(Bath).Take(Nap).,Take(Bath).Take(Nap{END}.{ESC}~,139548,141285,1737,0,277
+50,"This job fulfilling in creative way","This(job, Fulfilling, inCreativeWay,","This(job, ^ Ful~, ^ inCrea~,{ESC}~",142804,145544,2740,1519,372
+51,"such a load of crap","  SuchALoadOfCrap);","{TAB}^ SuchA~{END}{ESC});~{BKSP}",145544,147356,1812,0,93
+52,"Code Monkey think",CodeMonkey.Think(,"^ Code~.Think({ESC}~",147356,148409,1053,0,104
+53,"someday he have everything even pretty girl like you","  'someday he have everything even pretty girl like you');","{TAB}'Someday he have everything even pretty girl like you'{END}~{BKSP}",148409,153423,5014,0,623
+54,"Code Monkey just waiting for now",CodeMonkey.Just(WaitingForNow);,"^ Code~.Just(^ Waiting~{END};{ESC}~",153423,156414,2991,0,377
+55,"Code Monkey say someday, somehow","CodeMonkey.Say(['someday, somehow']);","^ Code~.Say(['someday, somehow']{END}{ESC}~",156414,159400,2986,0,452
+56,,,~^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN},159400,159400,0,0,-97
+57,"Code Monkey like Fritos",CodeMonkey.Like(Fritos);,"^ Code~.Like~^ Frit~{END}{ESC}~",159400,161330,1930,0,122
+58,"Code Monkey like Tab and Mountain Dew","CodeMonkey.Like(Tab and MountainDew);","^ Code~.Like~^ Ta~ and ^ Mount~{END}{ESC}~",162422,165072,2650,1092,400
+59,"Code Monkey very simple man",CodeMonkey.VerySimpleMan.,"^ Code~.Very~^ Simple~{END}{ESC}.{ESC}~",165408,167667,2259,336,297
+60,"with big warm fuzzy secret heart",&With(BigWarmFuzzySecretHeart);,"^ With~^ BigWarm~{END}{ESC}~",168309,170328,2019,642,95
+61,"Code Monkey like you",CodeMonkey.Like(you);,"^ Code~.^ Like~You{END}{ESC}~",171413,173843,2430,1085,200
+62,"Code Monkey like you",CodeMonkey.Like(you);,CodeMonkey.Like~,177437,178478,1041,3594,39
+63,,,You{END}{ESC}~^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN}^{DOWN},178478,181783,3305,0,-14
+64,,,"~// Yes, it's real Delphi code that compiles and runs!~",182663,183543,880,880,89
+65,,,^{DOWN}^{DOWN}~Music.Stop;^{DOWN}~~,183543,184423,880,0,34
+66,,,"// For the code, downloads, and more . . .~",184423,185803,1380,0,248
+67,,,"// Visit:~",185800,186300,500,0,35
+68,,,"//      www.Delphi.org/CodeMonkey~^{DOWN}",186300,187300,1000,0,145
+69,,,"{UP 4}~{UP}~// Thanks to Jonathan Coulton for the music.~",187300,188300,1000,0,89
+70,,,"// Code and video by Jim McKeeth~",188300,189300,1000,0,127
+71,,,"// Video licensed under Creative Commons BY-NC-SA^{DOWN 2}",189300,190300,1000,0,76
+72,,,^+{F9},193300,193300,0,3000,-14

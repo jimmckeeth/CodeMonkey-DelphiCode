@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{61BE68BF-27FC-4385-9170-1A77FA1F605B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ConsoleMonkey.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SpecialMusicalNumber.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ConsoleMonkey">
+        <MSBuild Projects="ConsoleMonkey.dproj"/>
+    </Target>
+    <Target Name="ConsoleMonkey:Clean">
+        <MSBuild Projects="ConsoleMonkey.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConsoleMonkey:Make">
+        <MSBuild Projects="ConsoleMonkey.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SpecialMusicalNumber">
+        <MSBuild Projects="SpecialMusicalNumber.dproj"/>
+    </Target>
+    <Target Name="SpecialMusicalNumber:Clean">
+        <MSBuild Projects="SpecialMusicalNumber.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SpecialMusicalNumber:Make">
+        <MSBuild Projects="SpecialMusicalNumber.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ConsoleMonkey;SpecialMusicalNumber"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ConsoleMonkey:Clean;SpecialMusicalNumber:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ConsoleMonkey:Make;SpecialMusicalNumber:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

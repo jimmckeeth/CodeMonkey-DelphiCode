@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+  <METADATA>
+    <FIELDS>
+      <FIELD attrname="Idx" fieldtype="i4"/>
+      <FIELD attrname="Original" fieldtype="string" WIDTH="500"/>
+      <FIELD attrname="Code" fieldtype="string" WIDTH="500"/>
+      <FIELD attrname="Script" fieldtype="string" WIDTH="500"/>
+      <FIELD attrname="Start" fieldtype="i4"/>
+      <FIELD attrname="Finish" fieldtype="i4"/>
+      <FIELD attrname="Space" fieldtype="i4"/>
+    </FIELDS>
+    <PARAMS/>
+  </METADATA>
+  <ROWDATA>
+    <ROW Idx="1" Original="Code Monkey get up get coffee" Code="CodeMonkey.GetUp.GetCoffee;" Script="Co^ {ENTER}.G{ENTER}.GetC{ENTER};{ENTER}" Start="407" Finish="2826" Space="548"/>
+    <ROW Idx="2" Original="Code Monkey go to job" Code="CodeMonkey.&amp;GoTo(Job);" Script="Co^ {ENTER}.Go{ENTER}Job{ESC}{END}{ENTER}" Start="3374" Finish="4916" Space="1432"/>
+    <ROW Idx="3" Original="Code Monkey have boring meeting" Code="CodeMonkey.Have(BoringMeeting)." Script="Co^ {ENTER}.H{ENTER}Bor^ {ENTER}{ESC}{END}.{ESC}{ENTER}" Start="6348" Finish="8845" Space="361"/>
+    <ROW Idx="4" Original="with boring manager Rob" Code="&amp;With(BoringManagerRob);" Script="&amp;With(Bor^ {ENTER});{ESC}{ENTER}" Start="9206" Finish="10732" Space="1339"/>
+    <ROW Idx="5" Script="{ENTER}^{DOWN 4}" Start="10732" Finish="10732" Space="0"/>
+    <ROW Idx="6" Original="Rob say Code Monkey very diligent" Code="Rob.Say(['Code Monkey very dilligent'," Script="Rob.S{ENTER}['Code Monkey very dilligent',{ESC}{ENTER}" Start="12071" Finish="14999" Space="0"/>
+    <ROW Idx="7" Original="but his output stink" Code="         'But his output stink'," Script="{TAB}'But his output stink',{ENTER}" Start="14999" Finish="16870" Space="1362"/>
+    <ROW Idx="8" Original="his code not functional or elegant" Code="         'His code not &quot;functional&quot; or &quot;elegant&quot;'," Script="'His code not &quot;functional&quot; or &quot;elegant&quot;',{ENTER}" Start="18232" Finish="21003" Space="0"/>
+    <ROW Idx="9" Original="what do Code Monkey think" Code="         'What do Code Monkey think?']);" Script="'What do Code Monkey think?']{END}{ENTER}" Start="21003" Finish="22842" Space="0"/>
+    <ROW Idx="10" Original="Code Monkey think maybe manager want to write login page himself" Code="CodeMonkey.Think('maybe manager want to write god damned login page himself');" Script="{BKSP}Co^ {ENTER}.Th{ENTER}'Maybe manager want to write login page himself!'{END}{ESC}{ENTER}" Start="22842" Finish="28999" Space="0"/>
+    <ROW Idx="11" Original="Code Monkey not say it out loud" Code="CodeMonkey.&amp;Not(SayItOutLoud);" Script="{HOME}{TAB}Co^ {ENTER}.Not{ENTER}Say^ {ENTER}{ESC}{END};{ENTER}" Start="28999" Finish="31117" Space="0"/>
+    <ROW Idx="12" Original="Code Monkey not crazy just proud" Code="CodeMonkey.&amp;Not(Crazy).Just(Proud);" Script="Co^ {ENTER}.Not{ENTER}Crazy^ {ENTER}{ESC}{END}.Ju{ENTER}Pr^ {ENTER}{END};{ENTER}" Start="31117" Finish="34096" Space="0"/>
+    <ROW Idx="13" Script="{ENTER}^{DOWN 7}" Start="34096" Finish="34096" Space="0"/>
+    <ROW Idx="14" Original="Code Monkey like Fritos" Code="CodeMonkey.Like(Fritos);" Script="Co^ {ENTER}.L{ENTER}Fr^ {ENTER}{END}{ESC}{ENTER}" Start="34096" Finish="36037" Space="1084"/>
+    <ROW Idx="15" Original="Code Monkey like Tab and Mountain Dew" Code="CodeMonkey.Like(Tab and MountainDew);" Script="Co^ {ENTER}.L{ENTER}T^ {ENTER} and M^ {ENTER}{END}{ESC}{ENTER}" Start="37121" Finish="39787" Space="305"/>
+    <ROW Idx="16" Original="Code Monkey very simple man" Code="CodeMonkey.Very(SimpleMan)." Script="Co^ {ENTER}.V{ENTER}Si^ {ENTER}{END}{ESC}.{ESC}{ENTER}" Start="40092" Finish="42241" Space="705"/>
+    <ROW Idx="17" Original="with big warm fuzzy secret heart" Code="&amp;With(BigWarmFuzzySecretHeart);" Script="Wi^ {ENTER}Big^ {ENTER}{END}{ESC}{ENTER}" Start="42946" Finish="45020" Space="1100"/>
+    <ROW Idx="18" Original="Code Monkey like you" Code="CodeMonkey.Like(you);" Script="Co^ {ENTER}.L{ENTER}You{END}{ESC}{ENTER}" Start="46120" Finish="47834" Space="4271"/>
+    <ROW Idx="19" Original="Code Monkey like you" Code="CodeMonkey.Like(you);" Script="Co^ {ENTER}.L{ENTER}You{END}{ESC}{ENTER}" Start="52105" Finish="55518" Space="4078"/>
+    <ROW Idx="20" Script="{ENTER}^{DOWN 6}" Start="55518" Finish="55518"/>
+    <ROW Idx="21" Original="Code Monkey hang around at front desk" Code="CodeMonkey.HangAround(AtFrontDesk)." Script="Co^ {ENTER}.Ha{ENTER}At^ {ENTER}{END}.{ESC}{ENTER}" Start="59596" Finish="62250" Space="356"/>
+    <ROW Idx="22" Original="tell you sweater look nice" Code="Tell(You, 'sweater look nice');" Script="Te^ {ENTER}You, 'sweater look nice'{END}{ESC}{ENTER}" Start="62606" Finish="64121" Space="1491"/>
+    <ROW Idx="23" Original="Code Monkey offer buy you soda" Code="CodeMonkey.Offer(Buy, You, Soda)." Script="Co^ {ENTER}.O{ENTER}Buy, You, Soda{END}.{ESC}{ENTER}" Start="65612" Finish="68078" Space="153"/>
+    <ROW Idx="24" Original="bring you cup bring you ice" Code="Bring(You, cup).Bring(You, Ice);" Script="Bring(You, cup).Br{ENTER}You, Ice{END};{ESC}{ENTER}" Start="68231" Finish="70118" Space="1374"/>
+    <ROW Idx="25" Original="you say no thank you for the soda cause" Code="You.Say(['no thank you for the soda cause'," Script="You.S{ENTER}['no thank you for the soda cause',{ESC}{ENTER}" Start="71492" Finish="74247" Space="0"/>
+    <ROW Idx="26" Original="soda make you fat" Code="         'Soda make you fat'," Script="{TAB}'Soda make you fat',{ENTER}" Start="74247" Finish="76122" Space="1335"/>
+    <ROW Idx="27" Original="anyway you busy with the telephone" Code="         'Anyway you busy with the telephone'," Script="'Anyway you busy with the telephone',{ENTER}" Start="77457" Finish="80240" Space="191"/>
+    <ROW Idx="28" Original="no time for chat" Code="         'No time for chat']);" Script="'No time for chat']{ENTER}" Start="80431" Finish="82095" Space="0"/>
+    <ROW Idx="29" Original="Code Monkey have long walk back to cubicle" Code="CodeMonkey.Have(LongWalkBackToCubicle)." Script="Co^ {ENTER}.Ha{ENTER}Lon^ {ENTER}{END}.{ESC}{ENTER}" Start="82095" Finish="85516" Space="0"/>
+    <ROW Idx="30" Original="he sit down pretend to work" Code="He.SitDown.PretendTo(Work);" Script="He.Sit{Enter}.Pre{ENTER}Work{END}{ESC}{ENTER}" Start="85516" Finish="87915" Space="200"/>
+    <ROW Idx="31" Original="Code Monkey not thinking so straight" Code="CodeMonkey.&amp;Not(ThinkingSoStraight);" Script="Co^ {ENTER}.Not(Think^ {ENTER}{END}{ESC};{ENTER}" Start="88115" Finish="91086" Space="0"/>
+    <ROW Idx="32" Original="Code Monkey not feeling so great" Code="CodeMonkey.&amp;Not(FeelingSoGreat);" Script="Co^ {ENTER}.Not(Feel^ {ENTER}{END}{ESC};{ENTER}" Start="91086" Finish="94107" Space="0"/>
+    <ROW Idx="33" Script="{ENTER}^{DOWN 7}" Start="94107" Finish="94107"/>
+    <ROW Idx="34" Original="Code Monkey like Fritos" Code="CodeMonkey.Like(Fritos);" Script="Co^ {ENTER}.L{ENTER}Fr^ {ENTER}{END}{ESC}{ENTER}" Start="94107" Finish="96029" Space="1088"/>
+    <ROW Idx="35" Original="Code Monkey like Tab and Mountain Dew" Code="CodeMonkey.Like(Tab and MountainDew);" Script="Co^ {ENTER}.L{ENTER}T^ {ENTER} and M^ {ENTER}{END}{ESC}{ENTER}" Start="97117" Finish="99795" Space="329"/>
+    <ROW Idx="36" Original="Code Monkey very simple man" Code="CodeMonkey.VerySimpleMan." Script="Co^ {ENTER}.V{ENTER}Si^ {ENTER}{END}{ESC}.{ESC}{ENTER}" Start="100124" Finish="102190" Space="908"/>
+    <ROW Idx="37" Original="with big warm fuzzy secret heart" Code="&amp;With(BigWarmFuzzySecretHeart);" Script="Wi^ {ENTER}Big^ {ENTER}{END}{ESC}{ENTER}" Start="103098" Finish="105024" Space="1084"/>
+    <ROW Idx="38" Original="Code Monkey like you" Code="CodeMonkey.Like(you);" Script="Co^ {ENTER}.L{ENTER}You{END}{ESC}{ENTER}" Start="106108" Finish="108527" Space="3558"/>
+    <ROW Idx="39" Original="Code Monkey like you" Code="CodeMonkey.Like(you," Script="Co^ {ENTER}.L{ENTER}You," Start="112085" Finish="114019" Space="1785"/>
+    <ROW Idx="40" Original="a lot" Code="ALot);" Script="A^ {ENTER}{END}{ESC}{ENTER}" Start="115804" Finish="116594" Space="9019"/>
+    <ROW Idx="41" Script="{ENTER}^{DOWN 7}" Start="116594" Finish="116594"/>
+    <ROW Idx="42" Original="Code Monkey have every reason" Code="CodeMonkey.Have(EveryReason)." Script="Co^ {ENTER}.Have(Every^ {ENTER}{END}.{ESC}{ENTER}" Start="125613" Finish="128247" Space="375"/>
+    <ROW Idx="43" Original="to get out this place" Code="&amp;To(GetOut, ThisPlace);" Script="To^ {ENTER}Get^ {ENTER}, This^ {ENTER}{END}{ESC}{ENTER}" Start="128622" Finish="130122" Space="1495"/>
+    <ROW Idx="44" Original="Code Monkey just keep on working" Code="CodeMonkey.Just(KeepOnWorking)." Script="Co^ {ENTER}.Just(Keep^ {ENTER}{END}.{ESC}{ENTER}" Start="131617" Finish="134220" Space="0"/>
+    <ROW Idx="45" Original="to see your soft pretty face" Code="See(you.r(SoftPrettyFace))." Script="See(you.r(Soft^ {ENTER}{END}).{ESC}{ENTER}" Start="134220" Finish="136130" Space="1346"/>
+    <ROW Idx="46" Original="Much rather wake up eat a coffee cake" Code="MuchRather(WakeUp).Eat(ACoffeeCake)." Script="Much^ {ENTER}Wake^ {ENTER}{END}.Eat(AC^ {ENTER}{END}.{ESC}{ENTER}" Start="137476" Finish="140248" Space="0"/>
+    <ROW Idx="47" Original="Take bath, take nap" Code="Take(Bath).Take(Nap)." Script="Take(Bath).Take(Nap{END}.{ESC}{ENTER}" Start="140248" Finish="141985" Space="1519"/>
+    <ROW Idx="48" Original="This job fulfilling in creative way" Code="This(job, Fulfilling, inCreativeWay," Script="This(job, Ful^ {ENTER}, inC^ {ENTER},{ENTER}" Start="143504" Finish="146244" Space="0"/>
+    <ROW Idx="49" Original="such a load of crap" Code="  SuchALoadOfCrap);" Script="{TAB}Such^ {ENTER}{END}{ESC});{ENTER}" Start="146244" Finish="148056" Space="0"/>
+    <ROW Idx="50" Original="Code Monkey think" Code="CodeMonkey.Think(" Script="{BKSP}Co^ {ENTER}.Think({ENTER}" Start="148056" Finish="149109" Space="0"/>
+    <ROW Idx="51" Original="someday he have everything even pretty girl like you" Code="  'someday he have everything even pretty girl like you');" Script="{TAB}'someday he have everything even pretty girl like you'{END}{ENTER}" Start="149109" Finish="154123" Space="0"/>
+    <ROW Idx="52" Original="Code Monkey just waiting for now" Code="CodeMonkey.Just(WaitingForNow);" Script="{BKSP}Co^ {ENTER}.Just(Waiting^ {ENTER}{END};{ESC}{ENTER}" Start="154123" Finish="157114" Space="0"/>
+    <ROW Idx="53" Script="{ENTER}^{DOWN 7}" Start="157114" Finish="157114"/>
+    <ROW Idx="54" Original="Code Monkey like Fritos" Code="CodeMonkey.Like(Fritos);" Script="Co^ {ENTER}.L{ENTER}Fr^ {ENTER}{END}{ESC}{ENTER}" Start="160100" Finish="162030" Space="1092"/>
+    <ROW Idx="55" Original="Code Monkey say someday, somehow" Code="CodeMonkey.Say(['someday, somehow']);" Script="Co^ {ENTER}.Say(['someday, somehow']{END}{ESC}{ENTER}" Start="157114" Finish="160100" Space="0"/>
+    <ROW Idx="56" Original="Code Monkey like Tab and Mountain Dew" Code="CodeMonkey.Like(Tab and MountainDew);" Script="Co^ {ENTER}.L{ENTER}T^ {ENTER} and M^ {ENTER}{END}{ESC}{ENTER}" Start="163122" Finish="165772" Space="336"/>
+    <ROW Idx="57" Original="Code Monkey very simple man" Code="CodeMonkey.VerySimpleMan." Script="Co^ {ENTER}.V{ENTER}Si^ {ENTER}{END}{ESC}.{ESC}{ENTER}" Start="166108" Finish="168367" Space="642"/>
+    <ROW Idx="58" Original="with big warm fuzzy secret heart" Code="&amp;With(BigWarmFuzzySecretHeart);" Script="Co^ {ENTER}.V{ENTER}Si^ {ENTER}{END}{ESC}.{ESC}{ENTER}" Start="169009" Finish="171028" Space="1085"/>
+    <ROW Idx="59" Original="Code Monkey like you" Code="CodeMonkey.Like(you);" Script="Wi^ {ENTER}Big^ {ENTER}{END}{ESC}{ENTER}" Start="172113" Finish="174543" Space="3594"/>
+    <ROW Idx="60" Original="Code Monkey like you" Code="CodeMonkey.Like(you);" Script="Co^ {ENTER}.L{ENTER}Y^ {ENTER}{END}{ESC}{ENTER}" Start="178137" Finish="185213" Space="681"/>
+  </ROWDATA>
+</DATAPACKET>
