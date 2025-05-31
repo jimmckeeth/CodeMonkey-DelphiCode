@@ -1,5 +1,5 @@
 # Code Monkey - Delphi Code
-The original program that writes the lyrics to Code Monkey as Delphi Code
+The original program that writes the lyrics to [Jonathan Coulton's Code Monkey](https://www.jonathancoulton.com/2006/04/14/thing-a-week-29-code-monkey/) as Delphi Code
 
 Here is the [video of the program in action](https://youtube.com/watch?v=-nGvMbQKS7U):
 
