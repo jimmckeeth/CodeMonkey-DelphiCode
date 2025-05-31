@@ -3,7 +3,7 @@ The original program that writes the lyrics to [Jonathan Coulton's Code Monkey](
 
 Here is the [video of the program in action](https://youtube.com/watch?v=-nGvMbQKS7U):
 
-[![Code Monkey as Code in Delphi by Jim McKeeth](https://img.youtube.com/vi/-nGvMbQKS7U/0.jpg)](https://www.youtube.com/watch?v=-nGvMbQKS7U)
+[![Code Monkey as Code in Delphi by Jim McKeeth](https://img.youtube.com/vi/-nGvMbQKS7U/0.jpg)](https://youtube.com/watch?v=-nGvMbQKS7U)
 
 And here is a [behind the scenes, making of video](https://youtu.be/RA5tfPHAL4k?t=309):
 
