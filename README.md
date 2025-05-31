@@ -1,7 +1,7 @@
 # Code Monkey - Delphi Code
 The original program that writes the lyrics to Code Monkey as Delphi Code
 
-Here is the [video of the program in action](https://youtube.com/watch?v=-nGvMbQKS7U)
+Here is the [video of the program in action](https://youtube.com/watch?v=-nGvMbQKS7U):
 
 [![Code Monkey as Code in Delphi by Jim McKeeth](https://img.youtube.com/vi/-nGvMbQKS7U/0.jpg)](https://www.youtube.com/watch?v=-nGvMbQKS7U)
 
